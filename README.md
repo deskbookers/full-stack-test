@@ -30,3 +30,7 @@ Make sure you port the following files in to a Node application:
 * `assignment1/php/errors.php` (if applicable)
 
 Your resulting Node application should be placed in `assignment1/node/`. You can of course use dependencies. You can either choose to write custom SQL queries or use an ActiveRecord like library to represend your data. Make sure you pick a solution which is easily maintainable.
+
+## Assignment 2: Add a Front-End to your Node application
+
+TODO
