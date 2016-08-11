@@ -19,18 +19,43 @@ The task is to setup a small Node application with:
 Make sure you port the following files in to a Node application:
 
 * `assignment1/php/index.php`
-* `assignment1/php/models/Booker.php`
-* `assignment1/php/models/Booking.php`
-* `assignment1/php/models/BookingItem.php`
-* `assignment1/php/models/Item.php`
-* `assignment1/php/models/Product.php`
-* `assignment1/php/models/Space.php`
-* `assignment1/php/models/User.php`
-* `assignment1/php/models/Venue.php`
+* `assignment1/php/classes/Model/Booker.php`
+* `assignment1/php/classes/Model/Booking.php`
+* `assignment1/php/classes/Model/BookingItem.php`
+* `assignment1/php/classes/Model/Item.php`
+* `assignment1/php/classes/Model/Product.php`
+* `assignment1/php/classes/Model/Space.php`
+* `assignment1/php/classes/Model/User.php`
+* `assignment1/php/classes/Model/Venue.php`
 * `assignment1/php/errors.php` (if applicable)
 
 Your resulting Node application should be placed in `assignment1/node/`. You can of course use dependencies. You can either choose to write custom SQL queries or use an ActiveRecord like library to represend your data. Make sure you pick a solution which is easily maintainable.
 
+Notes:
+
+1. Your Node application should be a standalone HTTP server.
+
 ## Assignment 2: Add a Front-End to your Node application
 
-TODO
+Now you have written a simple API in Node you are going to add an index page to the Node HTTP server. The index page should be a SPA (Single Page Application). It's recommended to use frameworks like React or Angular for this purpose.
+
+The application should be a simple interface to view the data provided by the API. It should have at least the following features:
+
+* Overview of bookers (paginated)
+* View one specific booker (bonus points when related bookings are showed as well in a good matter)
+* Overview of venues (paginated)
+* View one specific venue (bonus points when related spaces and products are showed as well)
+* Overview of bookings (paginated)
+* View one specific booking
+  * Make sure you show all relevant data of the booking
+* The whole application should look nice and should be user friendly
+* The application should have possibilities to navigate between the different interfaces
+
+Note the following things:
+* It's not allowed to use a CSS framework (we want to see how you write CSS)
+* CSS pre-processors like SASS and LESS are recommended
+* Make sure your code is well structured and reusable
+* Bonus: making changes / extensions to the API
+  * Search functionality
+  * API for spaces / products
+  * Etc.
