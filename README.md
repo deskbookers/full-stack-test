@@ -41,21 +41,23 @@ Now you have written a simple API in Node you are going to add an index page to 
 
 The application should be a simple interface to view the data provided by the API. It should have at least the following features:
 
-* Overview of bookers (paginated)
+* Overview of bookers (paginated and searchable)
 * View one specific booker (bonus points when related bookings are showed as well in a good matter)
-* Overview of venues (paginated)
+* Overview of venues (paginated and searchable)
 * View one specific venue (bonus points when related spaces and products are showed as well)
-* Overview of bookings (paginated)
+* Overview of bookings (paginated and searchable)
 * View one specific booking
   * Make sure you show all relevant data of the booking
 * The whole application should look nice and should be user friendly
 * The application should have possibilities to navigate between the different interfaces
 
+For the search function to work you probably need to extend the API with the search functionality.
+
 Note the following things:
 * It's not allowed to use a CSS framework (we want to see how you write CSS)
 * CSS pre-processors like SASS and LESS are recommended
 * Make sure your code is well structured and reusable
-* Bonus: making changes / extensions to the API
-  * Search functionality
+* Bonus: making extra additions to the API
   * API for spaces / products
+  * CRUD APIs
   * Etc.
