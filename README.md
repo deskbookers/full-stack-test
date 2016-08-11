@@ -41,13 +41,20 @@ Now you have written a simple API in Node you are going to add an index page to 
 
 The application should be a simple interface to view the data provided by the API. It should have at least the following features:
 
-* Overview of bookers (paginated and searchable)
-* View one specific booker (bonus points when related bookings are showed as well in a good matter)
-* Overview of venues (paginated and searchable)
-* View one specific venue (bonus points when related spaces and products are showed as well)
-* Overview of bookings (paginated and searchable)
+* Overview of bookings
+  * Paginated (using $count, $limit and $offset, see code for explination)
+  * The bookings should be searchable. Make them searchable for on at least the following data:
+    * Booking ID
+    * Space name
+    * Product name
+    * Venue name
+    * Booker name / email
 * View one specific booking
-  * Make sure you show all relevant data of the booking
+  * Make sure you show all relevant data of the booking:
+    * Booker
+    * Space
+    * Products
+    * Venue
 * The whole application should look nice and should be user friendly
 * The application should have possibilities to navigate between the different interfaces
 
