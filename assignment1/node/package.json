@@ -1,0 +1,14 @@
+{
+	"name": "full-stack-test-assignment1",
+	"version": "0.0.1",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"dependencies": {
+		// Your dependencies here
+	},
+	"devDependencies": {
+		// Your dev dependencies here	
+	}
+}
