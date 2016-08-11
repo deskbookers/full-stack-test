@@ -43,7 +43,7 @@ The application should be a simple interface to view the data provided by the AP
 
 * Overview of bookings
   * Paginated (using $count, $limit and $offset, see code for explination)
-  * The bookings should be searchable. Make them searchable for on at least the following data:
+  * The bookings should be searchable. Make them searchable on at least the following data:
     * Booking ID
     * Space name
     * Product name
