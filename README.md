@@ -6,7 +6,7 @@ Great that you're interested in this exercise! Thanks a lot for making it. The e
 
 To complete these assignments you need to fork this repo. When you're done you can push your changes to your own repo (and let us know where to find it ofcourse).
 
-For this exercise it's necessary to have a working Node/NPM setup and a machine with PHP (CLI) support. You can use your own web server (if you have one) or use XAMP (https://www.apachefriends.org/index.html) to install one on your own machine.
+For this exercise it's necessary to have a working Node/NPM(/Yarn) setup and a machine with PHP (CLI) support. You can use your own web server (if you have one) or use XAMP (https://www.apachefriends.org/index.html) to install one on your own machine.
 
 ## Assignment 1: Port old PHP code to Node.JS
 
@@ -29,7 +29,7 @@ Make sure you port the following files in to a Node application:
 * `assignment1/php/classes/Model/Venue.php`
 * `assignment1/php/errors.php` (if applicable)
 
-Your resulting Node application should be placed in `assignment1/node/`. You can of course use dependencies. You can either choose to write custom SQL queries or use an ActiveRecord like library to represend your data. Make sure you pick a solution which is easily maintainable.
+Your resulting Node application should be placed in `assignment1/node/`. You can of course use dependencies. You can either choose to write custom SQL queries or use an ActiveRecord like library to represend your data. Make sure you pick a solution which is easily maintainable. If special software is needed to run the code make sure this is documented.
 
 Notes:
 
